@@ -1,11 +1,10 @@
-# ...existing code...
+
 
 import streamlit.components.v1 as components
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
-# Only run API if called directly (not in Streamlit UI)
 if __name__ == "__main__":
     app = FastAPI()
 
