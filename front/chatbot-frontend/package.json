@@ -1,0 +1,28 @@
+{
+  "name": "chatbot-frontend",
+  "version": "1.0.0",
+  "description": "A frontend application for interacting with the Divya chatbot.",
+  "main": "src/App.jsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "chatbot",
+    "react",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.27.1"
+  }
+}
